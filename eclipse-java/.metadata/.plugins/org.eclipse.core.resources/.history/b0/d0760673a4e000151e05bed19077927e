@@ -1,0 +1,14 @@
+package search;
+
+public class Start {
+
+	static int[] testArray = {1,3,2,4,8,7};
+	
+	public static void main(String[] args) {
+		
+		MaxSearch searchMax = new MaxSearch();
+		System.out.println(searchMax.max_element(testArray));
+		
+	}
+
+}

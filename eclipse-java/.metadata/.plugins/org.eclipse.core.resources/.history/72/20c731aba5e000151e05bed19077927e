@@ -1,0 +1,22 @@
+package search;
+
+public class MaxSearch {
+
+	public int max_element(int[] a)
+	{
+		int j = 0;      //Anzahl der if-Abfrage - für Komplexität 
+		int x = a[0];   //Hält Maximum von a[0...i]
+		
+		for (int i = 1; i < a.length; i++) {
+			if (a[i] > x) {
+				j = i;
+				x = a[i];
+				System.out.println(j+". Durchlauf durch die if Schleife");
+				System.out.println("Aktuelle Zahl "+x);
+			}
+		}
+		
+		return x;
+	}
+	
+}

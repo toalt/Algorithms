@@ -1,0 +1,20 @@
+package search;
+
+public class MaxSearch {
+
+	public int max_element(int[] a)
+	{
+		int j = 0;
+		int x = a[0];   //Hält Maximum von a[0...i]
+		
+		for (int i = 1; i < a.length; i++) {
+			if (a[i] > x) {
+				j = i;
+				x = a[i]
+			}
+		}
+		
+		return j;
+	}
+	
+}
