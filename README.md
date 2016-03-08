@@ -1,2 +1,2 @@
 # Algorithms
-Smart algorithms - most in Java written - sort - scheduling - etc
+Smart algorithms - most written in Java - sort - scheduling - etc
